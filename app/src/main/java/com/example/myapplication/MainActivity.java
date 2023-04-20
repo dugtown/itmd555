@@ -86,7 +86,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
             String keyIdentifier = String.valueOf(position);
             i.putExtra("carValue", keyIdentifier);
             startActivity(i);
-            System.out.println("TEST");
         }
 
     }
