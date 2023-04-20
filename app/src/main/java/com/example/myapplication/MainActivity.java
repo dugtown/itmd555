@@ -23,6 +23,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
     String[] cars = { "Dodge Viper", "Fancy Volkswagon Van",
             "Ma Mystery Machine", "Mercedes G Wagon 550",
             "Rolls Royce Phantom" };
+
     List<String> carList = new ArrayList<>(Arrays.asList(cars));
     @Override
     protected void onCreate(Bundle savedInstanceState)
